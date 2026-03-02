@@ -16,9 +16,11 @@ const sparklesContainer = document.getElementById('sparklesContainer');
 // ================================
 
 window.addEventListener('load', () => {
-    setTimeout(() => {
-        pageLoader.classList.add('loaded');
-    }, 1500);
+    if (pageLoader) {
+        setTimeout(() => {
+            pageLoader.classList.add('hidden');
+        }, 1500);
+    }
 });
 
 // ================================
