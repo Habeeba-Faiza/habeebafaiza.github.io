@@ -757,6 +757,11 @@ section {
    TIMELINE (EXPERIENCE)
    ================================ */
 
+.experience {
+    position: relative;
+    z-index: 1;
+}
+
 .experience-timeline {
     max-width: 900px;
     margin: 0 auto;
@@ -777,6 +782,8 @@ section {
 .timeline-item {
     margin-bottom: var(--space-3xl);
     position: relative;
+    display: block;
+    visibility: visible;
 }
 
 .timeline-item:nth-child(odd) .timeline-content {
@@ -801,9 +808,17 @@ section {
     box-shadow: var(--glow-cyan);
 }
 
+.timeline-content {
+    position: relative;
+    z-index: 1;
+    display: block;
+    visibility: visible;
+}
+
 .timeline-content h3 {
     font-size: 1.5rem;
     margin-bottom: var(--space-sm);
+    color: var(--text-primary);
 }
 
 .timeline-date {
