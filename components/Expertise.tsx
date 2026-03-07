@@ -10,81 +10,81 @@ const expertiseAreas = [
     category: 'Admissions Management',
     icon: '📋',
     skills: [
-      'International application assessment',
-      'Academic credential evaluation',
-      'Document verification & authentication',
-      'Offer decision processing',
-      'Conditional requirements management',
-      'Entry requirements interpretation',
+      'International application screening and triage',
+      'Academic credential and profile evaluation',
+      'Document verification and readiness checks',
+      'Offer recommendation support and tracking',
+      'Conditional offer requirements management',
+      'Entry criteria interpretation across institutions',
     ],
   },
   {
     category: 'Compliance & Documentation',
     icon: '✓',
     skills: [
-      'UK visa documentation (Tier 4/Student Route)',
-      'CAS (Confirmation of Acceptance) processing',
-      'Immigration compliance standards',
-      'UKVI regulatory requirements',
-      'Data protection (GDPR)',
-      'Quality assurance protocols',
+      'UK student-route documentation standards',
+      'CAS documentation readiness and validation',
+      'Admissions compliance control procedures',
+      'Regulatory requirement interpretation',
+      'Data protection and confidentiality practice',
+      'Internal quality assurance checkpoints',
     ],
   },
   {
     category: 'CRM & Database Systems',
     icon: '💾',
     skills: [
-      'Student information systems',
-      'Database management & optimization',
-      'Data accuracy & validation',
-      'Reporting & analytics',
-      'Workflow automation',
-      'System integration',
+      'Student information and CRM operations',
+      'Database hygiene and process optimization',
+      'Data validation and error prevention',
+      'Admissions reporting and KPI visibility',
+      'Workflow automation opportunities',
+      'Cross-team data handoff alignment',
     ],
   },
   {
     category: 'Student Counseling',
     icon: '🎓',
     skills: [
-      'University program guidance',
-      'Application strategy consulting',
-      'Document preparation support',
-      'Visa process navigation',
-      'Cross-cultural communication',
-      'Expectation management',
+      'Program and university fit guidance',
+      'Application planning and submission strategy',
+      'Document preparation and review support',
+      'Pre-visa documentation orientation',
+      'Cross-cultural applicant communication',
+      'Decision and timeline expectation management',
     ],
   },
   {
     category: 'Operational Excellence',
     icon: '⚙️',
     skills: [
-      'Process optimization',
-      'Quality control implementation',
-      'Workflow standardization',
-      'Performance metrics tracking',
-      'Team coordination',
-      'Stakeholder management',
+      'Process mapping and efficiency improvement',
+      'Quality control framework implementation',
+      'Workflow standardization and SOP discipline',
+      'Performance metrics and trend tracking',
+      'Cross-functional team coordination',
+      'Stakeholder communication management',
     ],
   },
   {
     category: 'International Education',
     icon: '🌍',
     skills: [
-      'UK higher education system',
-      'International qualification frameworks',
-      'Partner university relations',
-      'Market trends & insights',
-      'Student recruitment pathways',
-      'Global education standards',
+      'UK higher education admissions ecosystem',
+      'International qualification pathway alignment',
+      'University partner communication',
+      'Market and applicant trend awareness',
+      'International student pathway planning',
+      'Global education service standards',
     ],
   },
 ]
 
 const technicalSkills = {
-  'CRM Systems': ['Salesforce', 'Student Information Systems', 'Database Management'],
-  'Documentation Tools': ['MS Office Suite', 'Document Management Systems', 'Adobe Acrobat'],
-  'Communication': ['Email Management', 'Video Conferencing', 'Multi-channel Support'],
-  'Data Analysis': ['Excel Analytics', 'Reporting Tools', 'Performance Dashboards'],
+  'CRM Systems': ['Salesforce (workflow use)', 'Student Information Systems', 'Database Administration'],
+  'Documentation Tools': ['Microsoft Office Suite', 'Document Management Platforms', 'Adobe Acrobat'],
+  'Communication': ['Stakeholder Email Management', 'Video Conferencing', 'Multi-channel Follow-up'],
+  'Data Analysis': ['Excel-based Analysis', 'Operational Reporting', 'Performance Dashboards'],
 }
 
 export const Expertise: React.FC = () => {
@@ -99,7 +99,7 @@ export const Expertise: React.FC = () => {
         >
           <SectionHeader 
             title="Expertise & Skills" 
-            subtitle="Comprehensive capabilities across international admissions and higher education"
+            subtitle="Core capabilities across admissions operations, documentation quality, and student guidance"
           />
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">

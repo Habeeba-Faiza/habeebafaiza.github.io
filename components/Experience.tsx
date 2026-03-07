@@ -7,33 +7,33 @@ import { Section, Container, SectionHeader } from './ui/Section'
 const experiences = [
   {
     title: 'Admission Officer',
-    organization: 'Leading International Education Group',
+    organization: 'International Education Consultancy',
     location: 'Global Operations',
     period: '2020 - Present',
-    description: 'Leading admissions processing and student guidance for UK university partnerships',
+    description: 'Leading end-to-end international admissions operations for UK university pathways, with strong focus on quality, compliance, and candidate experience.',
     achievements: [
-      'Process 2,000+ international applications annually with 98% accuracy rate',
-      'Reduced average application processing time by 40% through workflow optimization',
-      'Maintain CRM database of 10,000+ student records with 99.8% data accuracy',
-      'Provide personalized admissions counseling achieving 95% student satisfaction rating',
-      'Ensure 100% compliance with UK visa and immigration documentation requirements',
-      'Collaborate with 20+ UK universities across multiple academic disciplines',
+      'Processed 2,000+ international applications annually with 98% documentation accuracy',
+      'Reduced average processing turnaround time by 40% through workflow redesign and quality checkpoints',
+      'Maintained CRM data integrity across 10,000+ records with 99.8% validation accuracy',
+      'Delivered structured applicant guidance that supported a 95% student satisfaction score',
+      'Sustained full compliance with UK university and immigration documentation standards',
+      'Coordinated admissions communication across 20+ UK university partnerships',
     ],
     skills: ['Application Assessment', 'CRM Management', 'Compliance', 'Student Counseling'],
   },
   {
     title: 'Student Admissions Coordinator',
-    organization: 'International Education Services',
+    organization: 'Higher Education Admissions Services',
     location: 'Regional Office',
     period: '2018 - 2020',
-    description: 'Coordinated admissions operations and documentation for international students',
+    description: 'Managed admissions documentation and process coordination for international student cohorts applying to UK institutions.',
     achievements: [
-      'Processed 1,500+ applications with focus on UK higher education institutions',
-      'Implemented quality control measures reducing documentation errors by 35%',
-      'Developed standardized assessment frameworks for application evaluation',
-      'Provided guidance on visa requirements and immigration procedures',
-      'Built relationships with university admissions teams across 15+ institutions',
-      'Trained and mentored 5 junior team members on admissions best practices',
+      'Processed 1,500+ applications with consistent quality standards and timely completion',
+      'Introduced quality-control checks that reduced documentation errors by 35%',
+      'Built standardized assessment templates to improve review consistency across cases',
+      'Guided applicants on visa documentation readiness and timeline planning',
+      'Supported relationship management with admissions teams across 15+ institutions',
+      'Mentored 5 junior team members on admissions workflows and quality assurance',
     ],
     skills: ['Documentation', 'Quality Control', 'Team Training', 'Process Development'],
   },
@@ -62,7 +62,7 @@ export const Experience: React.FC = () => {
         >
           <SectionHeader 
             title="Professional Experience" 
-            subtitle="Driving excellence in international higher education admissions"
+            subtitle="A track record of process excellence, quality assurance, and applicant-centered outcomes"
           />
           
           <div className="space-y-12 mb-20">
@@ -137,7 +137,7 @@ export const Experience: React.FC = () => {
             viewport={{ once: true }}
             className="bg-gradient-to-br from-neutral-900 to-neutral-800 text-white rounded-2xl p-10"
           >
-            <h3 className="text-2xl font-bold mb-6">Core Responsibilities</h3>
+            <h3 className="text-2xl font-bold mb-6">Core Delivery Areas</h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
               {responsibilities.map((resp, index) => (
                 <div key={index} className="flex items-center">

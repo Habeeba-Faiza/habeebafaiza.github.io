@@ -8,12 +8,12 @@ const projects = [
   {
     title: 'Admissions Workflow Optimization',
     category: 'Process Improvement',
-    description: 'Redesigned end-to-end application processing workflow for a leading UK university partnership program.',
+    description: 'Rebuilt the application review journey to improve speed, consistency, and documentation quality across intake cycles.',
     impact: [
       'Reduced processing time from 10 days to 6 days (40% improvement)',
       'Increased accuracy rate from 92% to 98%',
-      'Implemented automated quality checkpoints',
-      'Improved student satisfaction by 25%'
+      'Introduced structured quality checkpoints across decision stages',
+      'Improved student-facing service feedback by 25%'
     ],
     metrics: '2,000+ applications annually',
     technologies: ['CRM Optimization', 'Process Mapping', 'Quality Assurance'],
@@ -21,12 +21,12 @@ const projects = [
   {
     title: 'CRM Database Restructuring',
     category: 'Data Management',
-    description: 'Led comprehensive database cleanup and optimization project for 10,000+ student records.',
+    description: 'Led a full CRM cleanup and governance initiative to improve data quality and reporting reliability.',
     impact: [
       'Achieved 99.8% data accuracy rate',
       'Reduced duplicate records by 95%',
-      'Implemented data validation protocols',
-      'Improved reporting capabilities by 60%'
+      'Built recurring data validation controls',
+      'Improved reporting clarity and usability by 60%'
     ],
     metrics: '10,000+ student records',
     technologies: ['Database Management', 'Data Validation', 'System Integration'],
@@ -34,12 +34,12 @@ const projects = [
   {
     title: 'International Student Guidance Framework',
     category: 'Student Experience',
-    description: 'Developed comprehensive support framework for international students navigating UK admissions.',
+    description: 'Designed a structured guidance model to support applicants from profile planning through final submission readiness.',
     impact: [
       '95% student satisfaction rating',
       'Reduced application errors by 40%',
-      'Created standardized guidance materials',
-      'Served students from 50+ countries'
+      'Created standardized communication and checklist templates',
+      'Served applicants from 50+ countries'
     ],
     metrics: '50+ countries served',
     technologies: ['Communication Strategy', 'Cultural Competency', 'Support Systems'],
@@ -47,12 +47,12 @@ const projects = [
   {
     title: 'Compliance & Documentation System',
     category: 'Regulatory Excellence',
-    description: 'Established robust compliance framework for UK visa and immigration documentation processing.',
+    description: 'Implemented a documentation control framework to strengthen compliance readiness and reduce avoidable rework.',
     impact: [
       '100% compliance rate maintained',
-      'Zero visa refusals due to documentation errors',
-      'Streamlined CAS processing workflow',
-      'Implemented audit trail system'
+      'Zero refusals attributed to documentation errors in managed cases',
+      'Improved CAS-related document turnaround',
+      'Established an internal audit-trail method'
     ],
     metrics: '100% compliance rate',
     technologies: ['UKVI Standards', 'Documentation Control', 'Audit Systems'],
@@ -60,12 +60,12 @@ const projects = [
   {
     title: 'Multi-University Partnership Program',
     category: 'Stakeholder Management',
-    description: 'Coordinated admissions operations across 20+ UK university partnerships.',
+    description: 'Coordinated admissions communication and submission standards across a broad network of UK institutions.',
     impact: [
-      'Managed relationships with 20+ institutions',
-      'Processed applications across 100+ programs',
-      'Maintained consistent service standards',
-      'Achieved 98% partner satisfaction'
+      'Supported relationships across 20+ university partners',
+      'Managed submissions across 100+ academic programs',
+      'Maintained consistent service and documentation standards',
+      'Achieved 98% partner satisfaction score'
     ],
     metrics: '20+ university partners',
     technologies: ['Relationship Management', 'Coordination', 'Service Excellence'],
@@ -73,12 +73,12 @@ const projects = [
   {
     title: 'Peak Season Operations Scaling',
     category: 'Operational Excellence',
-    description: 'Successfully scaled operations to handle 3x volume increase during peak admissions period.',
+    description: 'Scaled operations during peak intake windows without compromising decision quality or response consistency.',
     impact: [
       'Handled 3x normal application volume',
-      'Maintained quality standards throughout',
+      'Maintained quality benchmarks throughout peak period',
       'Reduced average response time by 30%',
-      'Implemented capacity planning framework'
+      'Implemented intake-based capacity planning model'
     ],
     metrics: '3x volume capacity',
     technologies: ['Capacity Planning', 'Resource Management', 'Performance Optimization'],
@@ -97,7 +97,7 @@ export const Portfolio: React.FC = () => {
         >
           <SectionHeader 
             title="Professional Portfolio" 
-            subtitle="Case studies and projects demonstrating impact across admissions operations"
+            subtitle="Selected case studies demonstrating measurable impact across admissions operations"
           />
           
           <div className="grid md:grid-cols-2 gap-8">

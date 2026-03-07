@@ -3,7 +3,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { Section, Container } from './ui/Section'
-import { Button } from './ui/Button'
 
 export const Contact: React.FC = () => {
   return (
@@ -20,8 +19,8 @@ export const Contact: React.FC = () => {
             Let&apos;s Connect
           </h2>
           <p className="text-xl md:text-2xl text-neutral-300 mb-12 leading-relaxed">
-            Interested in collaborating, discussing higher education trends, or exploring 
-            opportunities in international admissions? I&apos;d love to hear from you.
+            Open to professional conversations on international admissions, higher education operations, 
+            and collaborative opportunities with institutions and global education teams.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
@@ -37,7 +36,7 @@ export const Contact: React.FC = () => {
               Connect on LinkedIn
             </a>
             <a
-              href="mailto:habeeba.faiza@education.com"
+              href="mailto:faaizaofficial27@gmail.com"
               className="inline-flex items-center px-8 py-4 border-2 border-white text-white rounded-lg font-semibold hover:bg-white hover:text-neutral-900 transition-all duration-200"
             >
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -54,7 +53,7 @@ export const Contact: React.FC = () => {
             </div>
             <div>
               <h3 className="font-semibold mb-2">Availability</h3>
-              <p className="text-neutral-400">Open to opportunities</p>
+              <p className="text-neutral-400">Open to strategic roles and collaborations</p>
             </div>
             <div>
               <h3 className="font-semibold mb-2">Response Time</h3>
@@ -87,7 +86,7 @@ export const Footer: React.FC = () => {
               LinkedIn
             </a>
             <a
-              href="mailto:habeeba.faiza@education.com"
+              href="mailto:faaizaofficial27@gmail.com"
               className="hover:text-white transition-colors"
             >
               Email
