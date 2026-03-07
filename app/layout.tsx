@@ -5,14 +5,40 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://habeeba-faiza.github.io'),
   title: 'Habeeba Faiza | International Education & Admissions Specialist',
-  description: 'Experienced Admission Officer specializing in international higher education, university admissions processing, and student guidance. Trusted by leading UK universities.',
-  keywords: 'international education, university admissions, admission officer, higher education, student counseling, UK universities',
+  description:
+    'Experienced admission officer specializing in international higher education, UK university admissions, and student recruitment operations.',
+  keywords: [
+    'international admissions',
+    'UK university admissions',
+    'education consulting',
+    'student recruitment',
+    'admissions operations',
+    'CRM admissions management',
+  ],
   authors: [{ name: 'Habeeba Faiza' }],
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: 'Habeeba Faiza | International Education & Admissions Specialist',
-    description: 'Experienced Admission Officer specializing in international higher education, university admissions processing, and student guidance.',
+    description:
+      'Experienced admission officer specializing in international higher education, UK university admissions, and student recruitment operations.',
+    url: 'https://habeeba-faiza.github.io',
+    siteName: 'Habeeba Faiza Portfolio',
+    locale: 'en_US',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Habeeba Faiza | International Education & Admissions Specialist',
+    description:
+      'Experienced admission officer specializing in international higher education, UK university admissions, and student recruitment operations.',
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 }
 
@@ -23,11 +49,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-      </head>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <a href="#main-content" className="skip-link">
+          Skip to main content
+        </a>
+        {children}
+      </body>
     </html>
   )
 }

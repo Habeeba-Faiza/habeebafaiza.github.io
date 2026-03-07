@@ -10,7 +10,7 @@ import { Contact, Footer } from '@/components/Contact'
 
 export default function Home() {
   return (
-    <main className="relative">
+    <main id="main-content" className="relative" tabIndex={-1}>
       <Navigation />
       <Hero />
       <About />

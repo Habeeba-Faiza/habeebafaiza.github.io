@@ -81,7 +81,7 @@ export const ThoughtLeadership: React.FC = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1, duration: 0.5 }}
                 viewport={{ once: true }}
-                className="bg-white border border-neutral-200 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer"
+                className="bg-white border border-neutral-200 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
               >
                 <div className="flex items-center justify-between mb-4">
                   <span className="px-3 py-1 bg-primary-50 text-primary-700 rounded-full text-xs font-semibold">

@@ -14,18 +14,19 @@
   h1, h2, h3, h4, h5, h6 {
     @apply font-semibold tracking-tight;
   }
+
+  a:focus-visible,
+  button:focus-visible {
+    @apply outline-none ring-2 ring-primary-600 ring-offset-2;
+  }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-  
-  .animation-delay-200 {
-    animation-delay: 0.2s;
-  }
-  
-  .animation-delay-400 {
-    animation-delay: 0.4s;
+
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-md focus:bg-white focus:px-4 focus:py-2 focus:text-neutral-900 focus:shadow-lg;
   }
 }
