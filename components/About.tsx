@@ -36,7 +36,7 @@ export const About: React.FC = () => {
                 
                 <p className="text-lg text-neutral-700 leading-relaxed">
                   With extensive experience in <strong>UK university admissions</strong>, CRM management, 
-                  and international documentation, I've developed a systematic approach that balances 
+                  and international documentation, I&apos;ve developed a systematic approach that balances 
                   efficiency with the personal touch each student deserves.
                 </p>
               </div>

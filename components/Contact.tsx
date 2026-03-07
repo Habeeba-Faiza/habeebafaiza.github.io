@@ -17,11 +17,11 @@ export const Contact: React.FC = () => {
           className="max-w-4xl mx-auto text-center"
         >
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            Let's Connect
+            Let&apos;s Connect
           </h2>
           <p className="text-xl md:text-2xl text-neutral-300 mb-12 leading-relaxed">
             Interested in collaborating, discussing higher education trends, or exploring 
-            opportunities in international admissions? I'd love to hear from you.
+            opportunities in international admissions? I&apos;d love to hear from you.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
