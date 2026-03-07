@@ -52,20 +52,20 @@ export const About: React.FC = () => {
               
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-neutral-50 p-5 rounded-lg">
-                  <div className="text-3xl font-bold text-primary-600 mb-2">5+</div>
-                  <div className="text-sm text-neutral-700">Years in Higher Education</div>
+                  <div className="text-3xl font-bold text-primary-600 mb-2">40+</div>
+                  <div className="text-sm text-neutral-700">Profiles Managed Per Intake</div>
                 </div>
                 <div className="bg-neutral-50 p-5 rounded-lg">
-                  <div className="text-3xl font-bold text-primary-600 mb-2">50+</div>
-                  <div className="text-sm text-neutral-700">Countries Served</div>
+                  <div className="text-3xl font-bold text-primary-600 mb-2">2025</div>
+                  <div className="text-sm text-neutral-700">Started UK Admissions Role</div>
                 </div>
                 <div className="bg-neutral-50 p-5 rounded-lg">
-                  <div className="text-3xl font-bold text-primary-600 mb-2">10K+</div>
-                  <div className="text-sm text-neutral-700">Applications Reviewed</div>
+                  <div className="text-3xl font-bold text-primary-600 mb-2">3</div>
+                  <div className="text-sm text-neutral-700">Professional Certifications</div>
                 </div>
                 <div className="bg-neutral-50 p-5 rounded-lg">
-                  <div className="text-3xl font-bold text-primary-600 mb-2">98%</div>
-                  <div className="text-sm text-neutral-700">Processing Accuracy</div>
+                  <div className="text-3xl font-bold text-primary-600 mb-2">2</div>
+                  <div className="text-sm text-neutral-700">Academic Qualifications</div>
                 </div>
               </div>
               

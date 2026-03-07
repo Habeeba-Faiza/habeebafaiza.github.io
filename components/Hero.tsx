@@ -49,20 +49,20 @@ export const Hero: React.FC = () => {
             className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 max-w-4xl mx-auto"
           >
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-neutral-900 mb-2">5+</div>
-              <div className="text-sm md:text-base text-neutral-600">Years Experience</div>
+              <div className="text-4xl md:text-5xl font-bold text-neutral-900 mb-2">40+</div>
+              <div className="text-sm md:text-base text-neutral-600">Profiles Per Intake</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-neutral-900 mb-2">10K+</div>
-              <div className="text-sm md:text-base text-neutral-600">Applications Processed</div>
+              <div className="text-4xl md:text-5xl font-bold text-neutral-900 mb-2">2025</div>
+              <div className="text-sm md:text-base text-neutral-600">UK Admissions Role Since</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-neutral-900 mb-2">98%</div>
-              <div className="text-sm md:text-base text-neutral-600">Documentation Accuracy</div>
+              <div className="text-4xl md:text-5xl font-bold text-neutral-900 mb-2">3</div>
+              <div className="text-sm md:text-base text-neutral-600">Industry Certifications</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-neutral-900 mb-2">20+</div>
-              <div className="text-sm md:text-base text-neutral-600">UK University Partners</div>
+              <div className="text-4xl md:text-5xl font-bold text-neutral-900 mb-2">2</div>
+              <div className="text-sm md:text-base text-neutral-600">Academic Degrees</div>
             </div>
           </motion.div>
         </div>

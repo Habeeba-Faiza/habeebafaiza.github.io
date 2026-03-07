@@ -7,57 +7,57 @@ import { MetricCard } from './ui/Card'
 
 const achievements = [
   {
-    value: '10K+',
-    label: 'Applications Processed',
-    description: 'Successfully reviewed and processed over 10,000 international student applications with 98% accuracy rate',
+    value: '40+',
+    label: 'Profiles Per Intake',
+    description: 'Managed 40+ student/client profiles per intake, maintaining structured progression from documentation to submission stages',
   },
   {
-    value: '40%',
-    label: 'Efficiency Increase',
-    description: 'Implemented streamlined workflows that reduced application processing time by 40% while maintaining quality',
+    value: '2025',
+    label: 'Current UK Admissions Role Since',
+    description: 'Serving as Admission Officer in UK education consulting with hands-on responsibility across admissions coordination workflows',
   },
   {
-    value: '20+',
-    label: 'University Partners',
-    description: 'Established and maintained relationships with leading UK universities across multiple academic disciplines',
+    value: '3',
+    label: 'Professional Certifications',
+    description: 'Completed certifications from British Council, Google, and TCS iON to strengthen admissions, digital, and data foundations',
   },
   {
-    value: '95%',
-    label: 'Student Satisfaction',
-    description: 'Achieved 95% satisfaction rating through personalized guidance and responsive communication',
+    value: '150+',
+    label: 'Research Respondents',
+    description: 'Conducted market research with 150+ respondents in MBA venture project to validate planning and engagement direction',
   },
   {
-    value: '50+',
-    label: 'Countries Served',
-    description: 'Provided admissions support to students from over 50 countries across 6 continents',
+    value: '30%',
+    label: 'MVP Engagement Improvement',
+    description: 'Improved MVP engagement by 30% during startup planning project through structured insights and positioning adjustments',
   },
   {
-    value: '99.8%',
-    label: 'Compliance Rate',
-    description: 'Maintained exceptional compliance with UK visa and immigration documentation requirements',
+    value: '25%',
+    label: 'Event Participation Growth',
+    description: 'Increased student participation by 25% through planning and coordination in leadership and campus event initiatives',
   },
 ]
 
 const keyImpacts = [
   {
-    title: 'Process Innovation',
-    description: 'Redesigned application review workflows, implementing quality checkpoints that improved accuracy while reducing turnaround time.',
-    impact: 'Reduced processing errors by 35%',
+    title: 'Admissions Workflow Coordination',
+    description: 'Built intake-level profile tracking and follow-up structure to improve clarity across active student pipelines.',
+    impact: '40+ profiles coordinated per intake',
   },
   {
-    title: 'Database Management Excellence',
-    description: 'Optimized CRM systems and implemented data validation protocols for 10,000+ student records.',
-    impact: 'Improved data accuracy to 99.8%',
+    title: 'Compliance and Documentation Discipline',
+    description: 'Supported eligibility checks and document verification before submissions to reduce avoidable rework and delays.',
+    impact: 'Compliance-first review built into workflow',
   },
   {
-    title: 'Cross-Cultural Communication',
-    description: 'Developed culturally sensitive communication frameworks for diverse international student populations.',
-    impact: '95% student satisfaction rating',
+    title: 'CRM and Record Management',
+    description: 'Maintained detailed logs, invoices, TT copies, and CRM updates for clear status visibility and stakeholder communication.',
+    impact: 'Improved traceability across application stages',
   },
   {
-    title: 'Operational Scaling',
-    description: 'Successfully scaled admissions operations during peak periods while maintaining service quality standards.',
-    impact: 'Handled 3x volume increase',
+    title: 'Research and Leadership Execution',
+    description: 'Delivered measurable outcomes through MBA project research and college-level team coordination initiatives.',
+    impact: '30% engagement lift and 25% participation growth',
   },
 ]
 
