@@ -17,9 +17,9 @@ const achievements = [
     description: 'Serving as Admission Officer in UK education consulting with hands-on responsibility across admissions coordination workflows',
   },
   {
-    value: '3',
+    value: '4',
     label: 'Professional Certifications',
-    description: 'Completed certifications from British Council, Google, and TCS iON to strengthen admissions, digital, and data foundations',
+    description: 'Completed certifications from ABCC German Counsellor, British Council, Google, and TCS iON to strengthen admissions, digital, and data foundations',
   },
   {
     value: '150+',
